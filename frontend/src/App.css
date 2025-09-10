@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  /* Add background image */
+  background-image: url('https://images.unsplash.com/photo-1470472304068-4398a9daab00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80'); /* You can replace with your image URL or local path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* Remove background color if you want the image visible behind */
+  background-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
